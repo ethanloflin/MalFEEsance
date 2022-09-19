@@ -1,0 +1,1 @@
+This is an online web app that will be used to calculate the selling fees of multiple different online marketplaces for fashion such as Grailed, eBay, StockX, and GOAT!

@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url(content/titillium-web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: "TuskerGrotesk";
+    src: url(content/tusker-grotesk-font/TuskerGrotesk-4500Medium.ttf);
+}
+
+.navbar{
+    display: flex;
+    background-color: #5c8d02;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    color: blanchedalmond;
+    justify-content: space-between;
+    padding: 15px;
+    width: 2000px
+
+}
+
+.contact,
+.math,
+.about{
+    display: flex;
+    justify-content: space-between;
+    font-family:"TuskerGrotesk";
+}
+
+.main{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    font-family: "TuskerGrotesk";
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.dropbtn {
+    background-color: #0d6fb1;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .appContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .appContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .appContent a:hover {background-color: #ddd;}
+
+  .show {display:block;}
