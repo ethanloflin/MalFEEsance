@@ -31,7 +31,8 @@
 
 .contact,
 .math,
-.about{
+.about,
+.home{
     display: flex;
     justify-content: space-between;
     font-family:"TuskerGrotesk";
@@ -40,38 +41,43 @@
 .main{
     display: flex;
     background-color: blanchedalmond;
-    justify-content: center;
+    justify-content:flex-start;
     font-family: "TuskerGrotesk";
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 40px;
+    height: 900px;
+    
 }
 
-.dropbtn {
-    background-color: #0d6fb1;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
+.sale{
+  padding: 10px;
+}
 
-  .appContent {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+p{
+    padding-top: 50px;
+}
 
-  .appContent a {
-    color: black;
-    padding: 12px 16px;
+a{
     text-decoration: none;
-    display: block;
-  }
+    
+}
 
-  .appContent a:hover {background-color: #ddd;}
+#nav{
+    color: beige; 
+}
 
-  .show {display:block;}
+.apps{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+#goat,
+#stockx,
+#grailed,
+#ebay,
+#select
+{
+    padding: 15px;
+}

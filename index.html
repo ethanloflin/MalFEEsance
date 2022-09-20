@@ -4,27 +4,29 @@
         <meta charset="utf-8">
         <title>MalFEEsance</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="scripts" href="../malfeesance/scripts/dropdown.js">
     </head>
     <body>
         <div class="navbar">
-            <div class="links">
-                <a class="contact" href="contact.html">Contact Us</a>
-                <a class="math" href="math.html">Fee Formulas</a>
-                <a class="about" href="about.html">About Us</a>
+            <div class="links" id="nav">
+                <a class="contact" id="nav" href="contact.html">Contact Us</a>
+                <a class="math" id="nav" href="math.html">Fee Formulas</a>
+                <a class="home" id="nav" href="index.html">Home page</a>
+                <a class="about" id="nav" href="../pages/about.html">About Us</a>
             </div>
         </div>
         <div class="main">
             <h1>MalFEEsance</h1>
             <p>A clearer view on what happens to your money when you sell on online applications</p>
-            <div class="dropdown">
-                <button onclick="dropdownMenu()" class="dropbtn">Select your App</button>
-                <div id="apps" class="appContent">
-                    <a href="#">Grailed</a>
-                    <a href="#">GOAT</a>
-                    <a href="#">eBay</a>
-                    <a href="#">StockX</a>
-                </div>
+            <p>Not knowing where your money went when you sell an item online can be frustrating. MalFeeSance aims to allow users to predict
+               the fees that some from an array of online marketplaces prior to the sale, rather than finding
+               out the harsh reality after you've already sold the item.
+            </p>
+            <h1 id="select">Select your Marketplace:</h1>
+            <div class="apps">
+                <a id = "stockx" href="stockx.html">StockX</a>
+                <a id="goat" href="goat.html">GOAT</a>
+                <a id="ebay" href="ebay.html">eBay</a>
+                <a id= "grailed" href="grailed.html">Grailed</a>
             </div>
         </div>
     </body>
